@@ -1,0 +1,49 @@
+#midblock {
+    text-align: center;
+    margin: 75px;
+    background: rgb(245, 245, 220);
+    border: 10px double #2dce80;
+    
+}
+
+body {
+    background: url("../images/Backgroud.jpg");
+}
+
+#timer {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    text-shadow: 1px 3px 3px #e6b1d9;
+    font-family: Arial;
+    color: #ffff00;
+    font-size: 40px;
+    background: #34d965;
+    padding: 25px 35px 25px 35px;
+    border: solid #edb2de 4px;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+.styleq {
+    margin: 40px;
+    padding: 10px;
+    border: 3px solid #e6b1d9;
+    background-color: #2dce80;
+}
+
+/* Having trouble changing the style of the inputs */
+/* input {
+    appearance: none;
+    font-size: 30px;
+} */
+
+#timer {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}

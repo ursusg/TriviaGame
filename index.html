@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>TRIVIA!!!</title>
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- The giant middle block containing everything -->
+  <div id="midblock">
+
+    <!-- Header with teh introduction and etc... -->
+    <h1 id="introduction">Hello.
+      <div>Once you hit start, you will have 30 seconds to answer 5 questions.
+      </div>
+    </h1>
+
+    <!-- Start Button -->
+    <button class="btn" id="start">Start</button>
+
+    <!-- The timer -->
+    <div id="timer">00:30</div>
+
+    <!-- A div containing all of the questions and their respective choices -->
+    <div id="questions">
+      <div class="styleq">
+        <h2>In chess, which piece only moves diagonally?</h2>
+
+        <form>
+          <input type='radio' id='question1' name='wrong1' value='knight'>
+          <label for='knight'>Knight</label>
+
+          <input type='radio' id='question1' name='correct' value='bishop'>
+          <label for='bishop'>Bishop</label>
+
+          <input type='radio' id='question1' name='wrong1' value='pawn'>
+          <label for='pawn'>Pawn</label>
+
+          <input type='radio' id='question1' name='wrong1' value='king'>
+          <label for='king'>King</label>
+        </form>
+
+      </div>
+
+      <div class="styleq">
+        <h2>What's the Hungarian word for "red pepper?"</h2>
+
+        <form>
+          <input type='radio' id='question2' name='wrong2' value='tutyimutyi'>
+          <label for='tutyimutyi'>Tutyimutyi</label>
+
+          <input type='radio' id='question2' name='wrong2' value='hiányérzet'>
+          <label for='hiányérzet'>Hiányérzet</label>
+
+          <input type='radio' id='question2' name='correct' value='paprika'>
+          <label for='paprika'>Paprika</label>
+
+          <input type='radio' id='question2' name='wrong2' value='házisárkány'>
+          <label for='házisárkány'>Házisárkány</label>
+
+        </form>
+
+      </div>
+
+      <div class="styleq">
+        <h2>How many instruments accompany someone singing "a cappella"?</h2>
+
+        <form>
+          <input type='radio' id='question3' name='wrong3' value='one'>
+          <label for='one'>One</label>
+
+          <input type='radio' id='question3' name='wrong3' value='three'>
+          <label for='three'>Three</label>
+
+          <input type='radio' id='question3' name='wrong3' value='asmany'>
+          <label for='asmany'>As many as you want</label>
+
+          <input type='radio' id='question3' name='correct' value='none'>
+          <label for='none'>None</label>
+
+        </form>
+
+      </div>
+
+      <div class="styleq">
+        <h2>What is known as the "white pearl of India"?</h2>
+        <form>
+          <input type='radio' id='question4' name='wrong4' value='elephanttusk'>
+          <label for='elephanttusk'>Elephant Tusks</label>
+
+          <input type='radio' id='question4' name='correct' value='tajmahal'>
+          <label for='tajmahal'>Taj Mahal</label>
+
+          <input type='radio' id='question4' name='wrong4' value='kangchenjunga'>
+          <label for='kangchenjunga'>Kangchenjunga</label>
+
+          <input type='radio' id='question4' name='wrong4' value='kolkata'>
+          <label for='kolkata'>Kolkata</label>
+        </form>
+      </div>
+
+      <div class="styleq">
+        <h2>What number have you rolled in a game of craps, if you roll "boxcars"?</h2>
+
+        <form>
+          <input type='radio' id='question5' name='correct' value='twelve'>
+          <label for='twelve'>Twelve</label>
+
+          <input type='radio' id='question5' name='wrong5' value='ten'>
+          <label for='ten'>Ten</label>
+
+          <input type='radio' id='question5' name='wrong5' value='seven'>
+          <label for='seven'>Seven</label>
+
+          <input type='radio' id='question5' name='wrong5' value='four'>
+          <label for='four'>Four</label>
+
+        </form>
+      </div>
+
+
+    </div>
+
+    <div id="results">
+
+    </div>
+
+  </div>
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Script -->
+  <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
